@@ -4,4 +4,9 @@
 # 3.	Print de bijgewerkte dictionary.
 
 
-persoon = {"naam":"jeff","leeftijd":24,"woonplaats":"Zerkehem"}
+persoon = {"naam":"jeff","leeftijd":54,"woonplaats":"Zerkehem"}
+persoon["beroep"] = "bakker"
+print(persoon["naam"])
+print(persoon["leeftijd"])
+print(persoon["woonplaats"])
+print(persoon["beroep"])
